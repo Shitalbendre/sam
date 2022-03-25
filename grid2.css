@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid-container{
+    display: grid;
+    width: 80%;
+    height: 80vh;
+    margin: 5% 10%;
+    gap: 5px;
+    grid-template-areas: 
+    "header header header header"
+    "navigation navigation navigation navigation"
+    "main main image article"
+    "main main news news"
+    "footer footer footer footer";
+}
+
+.grid-item{
+    border: 2px solid black;
+}
+
+.item1{
+    grid-area: header;
+}
+
+.item2{
+    grid-area: navigation;
+}
+
+.item3{
+    grid-area: main;
+}
+
+.item4{
+    grid-area: image;
+}
+
+.item5{
+    grid-area: article;
+}
+
+.item6{
+    grid-area: news;
+}
+
+.item7{
+    grid-area: footer;
+}
